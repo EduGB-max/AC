@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style800.css" media="(max-width:800px)">
+</head>
+
+<body>
+
+<input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+<label class="close-menu-label" for="close-menu" title="close menu"></label>
+<aside class="menu white-bg"> 
+    <div class=" main-content menu-content"> 
+
+        <h1 onclick= "getElementById('close-menu').checked = false;">
+
+        <a href="#home">LOGO</a> 
+
+        </h1>
+    
+    <nav>
+
+  <ul onclick="getElementById('close-menu').chcked = false;"> 
+
+    <li><a href="#intro"> INTRO </a> </li>
+    <li><a href="#grid-one"> MY GRID </a> </li>
+    <li><a href="#galery">GALLERY </a> </li>
+    <li><a href="#contact"> CONTACT </a> </li>
+
+  </ul>
+
+    </nav>
+
+    </div>
+
+    </aside>
+
+     <div class="menu-spacing"></div>   
+
+     <section id="home" class="intro main-bg section">
+
+       <div class="main-content intro-content"> 
+      
+        <div class="intro-text-content">
+
+       <h2>HTML 5 | CSS3 | JS </h2>
+
+       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
+
+        </div>
+
+        <div class="intro-img">
+
+          <img src="images/javascript.svg" alt=" Logo de HTML, CSS e JS">
+
+        </div>
+
+       </div>
+
+     </section>
+
+     <section id="intro" class="white-bg section">
+<div class="main-content top3-content">
+  
+  <h2>
+    Lorem ipsum dolor sit 
+  </h2>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  <p> Bibendum est ultricies integer quis auctor elit sed. Lorem dolor sed viverra ipsum nunc. Nisl condimentum id venenatis a condimentum vitae sapien pellentesque </p>
+
+</div>
+
+     </section>
+
+     <section id="grid-one" class="grid-one main-bg section"> 
+       <div class="main-content grid-one content">
+         <h2 class="grid-main-heading">
+           My Grid
+         </h2>
+
+         <div class="grid">
+
+           <article>
+
+             <h3>Teste 1</h3>
+
+<p>Bibendum est ultricies integer quis auctor elit sed. Lorem dolor sed viverra ipsum nunc. Nisl condimentum id venenatis a condimentum vitae sapien pellentesque</p>        
+        </article>
+
+        <article>
+          
+          <h3> Teste 2 </h3>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut etiam sit amet nisl purus in mollis nunc sed. Dui id ornare arcu odio ut sem. Vel quam elementum pulvinar etiam non quam. Erat imperdiet sed euismod nisi porta lorem mollis. Nibh tortor id aliquet lectus proin nibh nisl condimentum.</p>
+      
+        </article>
+
+        <article>
+          
+          <h3> Teste 3 </h3>
+
+        <p> Quam quisque id diam vel quam elementum pulvinar etiam. Pellentesque elit eget gravida cum. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero. Et leo duis ut diam quam nulla porttitor massa id. Felis eget nunc lobortis mattis aliquam faucibus purus in.</p>
+
+        </article>
+
+         </div>
+
+       </div>
+
+     </section>
+
+<section id="galley" class="grid-one whte-bg section"> 
+  <div class="main-content grid-one-content">
+<h2 class="grid-main-heading">
+  Gallery
+</h2>
+<div class="grid">
+
+<div class="gallery img">
+  <img src="https://picsum.photos/id/237/200/300" alt="random image from  Lorem Picsum" />
+</div>
+
+<div class="gallery img">
+  <img src="https://picsum.photos/id/238/200/300" alt="random image from  Lorem Picsum" />
+</div>
+
+<div class="gallery img">
+  <img src="https://picsum.photos/id/239/200/300" alt="random image from  Lorem Picsum" />
+</div>
+
+<div class="gallery img">
+  <img src="https://picsum.photos/id/240/200/300" alt="random image from  Lorem Picsum" />
+</div>
+
+<div class="gallery img">
+  <img src="https://picsum.photos/id/241/200/300" alt="random image from  Lorem Picsum" />
+</div>
+
+<div class="gallery img">
+  <img src="https://picsum.photos/id/242/200/300" alt="random image from  Lorem Picsum" />
+</div>
+
+</div>
+
+  </div>
+
+</section>
+
+<section id="contact" class="intro main-bg section">
+  <div class="main-content intro-content">
+    <div class="contact-form">
+      <h2 class="grid-main-heading">Contact</h2>
+      <form action="" method="post">
+        <fieldset class="form-grid"> 
+
+          <div class="form-group">
+           <br> <label for="first-name">First name</label> </br>
+            <input type="text" name="first_name" id="first-name" placeholder="Your name">
+          </div>
+
+          <div class="form-group">
+          <br> <label for="last-name">last name</label> </br>
+            <input type="text" name="last_name" id="last-name" placeholder="Your last name">
+          </div>
+
+          <div class="form-group">
+          <br>  <label for="email">E-mail</label> </br>
+            <input type="text" name="email" id="email" placeholder="Your e-mail">
+          </div>
+
+          <div class="form-group full width">
+          <br> <label for="message">Message</label> </br>
+            <textarea name="message" name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+          </div>
+
+          <div class="form-group full width">
+           <button type="submit">Send message</button> 
+          </div>
+
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</section>
+</body>
+</html>
