@@ -1,28 +1,29 @@
-menu{
-
-    bottom: 0;
-    text-align: center;
-
+.menu { 
+bottom: 0;
+text-align: center;
 }
 
-menu-content, menu content ul{
+.menu-content, .menu-content ul {
 flex-direction: column;
-justify-content: center;
+ justify-content: center;
 }
 
-.menu{
-    display: none;
+.menu-content {
+height: 100vh;
 }
 
-.close-menu-label::after{
+.menu {
+display: none;
+}
 
+.close-menu-label::after {
 content: '=';
 position: fixed;
 z-index: 2;
 top: 2rem;
 right: 2rem;
 background: #0A1128;
-color:#FFFFFF;
+color: #FFFFFF;
 font-size: 3rem;
 line-height: 3rem;
 width: 3rem;
@@ -30,21 +31,22 @@ height: 3rem;
 text-align: center;
 padding: 0.5rem;
 cursor: pointer;
-
 }
 
-.close-menu:checked-menu{
-    display: block;
+.close-menu, checked-menu {
+display: block;
 }
 
-.close-menu:checked~.close-menu-label::after{
-    content: 'x';
+.close-menu:checked-.close-menu-label::after {
+content: 'x';
 }
 
-.menu-spacing{
-    display: none;
+.menu-spacing {
+display: none;
 }
 
-.intro-content, .grid{
-    grid-template-columns: ifr;
+.intro-content,
+.grid {
+grid-template-columns: lfr  ;
 }
+
